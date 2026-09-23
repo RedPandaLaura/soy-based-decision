@@ -1,0 +1,6 @@
+{
+  "id": "esempio",
+  "title": "Ricetta di esempio",
+  "ingredients": ["ingrediente 1", "ingrediente 2"],
+  "steps": ["passaggio 1", "passaggio 2"]
+}
