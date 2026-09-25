@@ -1,0 +1,17 @@
+
+.header {
+  position: sticky;
+  top: 0;
+  top: calc(0px + var(--safe-top));
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  padding: 1rem;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+
+.header h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
