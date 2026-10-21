@@ -10,7 +10,7 @@ export function HeaderLogo(){
 return (
 <header className={styles.header}>
         <img src={sbd} alt="Three headed soybean" width={300}  />
-        <ThemeSwitch theme={theme} onToggle={toggleTheme} />
+        <ThemeSwitch className={styles.themeSwitch} theme={theme} onToggle={toggleTheme} />
       </header>
 )
 }
