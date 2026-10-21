@@ -1,0 +1,58 @@
+[
+  {
+    "id": "vellutata-porro-patate",
+    "title": "Vellutata di porro e patate",
+    "ingredients": [
+      "300 g di porro (peso lordo, non pulito)",
+      "300 g di patate a pasta farinosa (pelate, circa 330-350 g intere)",
+      "15 g di burro",
+      "1 cucchiaio di olio extravergine d'oliva",
+      "600 ml di brodo vegetale caldo",
+      "1/2 cucchiaino di sale",
+      "1 pizzico di pepe bianco o noce moscata",
+      "2 cucchiai di panna o latte (facoltativo)"
+    ],
+    "steps": [
+      "Elimina radice e foglie verde scuro del porro. Taglialo a metà per il lungo, sciacqua bene tra gli strati e affetta sottile, a rondelle di 2-3 mm, perpendicolare alle fibre.",
+      "Pela le patate e tagliale a cubetti piccoli e regolari, di circa 1,5 cm.",
+      "In una casseruola scalda burro e olio a fuoco medio-basso. Aggiungi il porro con un pizzico di sale e fallo appassire coperto per circa 10 minuti, mescolando ogni tanto, finché è molto morbido e trasparente, senza farlo colorire.",
+      "Unisci le patate, mescola per un minuto, poi versa il brodo fino a coprire appena le verdure. Porta a bollore e cuoci a fuoco basso, semicoperto, per circa 25 minuti, finché le patate si sfaldano schiacciandole con un cucchiaio.",
+      "Togli un mestolo di brodo e tienilo da parte. Frulla con il minipimer per almeno 2-3 minuti, muovendolo bene sul fondo. Se è troppo densa, aggiungi il brodo tenuto da parte poco alla volta.",
+      "Passa la vellutata in un colino a maglia fine, premendo con il dorso di un cucchiaio. Rimetti sul fuoco, aggiusta di sale e pepe o noce moscata e, se vuoi, aggiungi panna o latte."
+    ],
+    "note": [],
+    "tag": ["hot", "soup"],
+    "effort": "normal"
+  },
+  {
+    "id": "pasta-zucca",
+    "title": "Pasta alla zucca",
+    "ingredients": [
+      "180 g di pasta corta (mezze maniche, paccheri o rigatoni)",
+      "400 g di zucca (peso lordo, circa 300 g pulita)",
+      "1 scalogno",
+      "1 spicchio d'aglio (facoltativo)",
+      "2 cucchiai di olio extravergine d'oliva",
+      "200 ml di brodo vegetale caldo",
+      "1 rametto di rosmarino o qualche foglia di salvia",
+      "30 g di parmigiano grattugiato",
+      "1 pizzico di noce moscata",
+      "sale e pepe nero q.b."
+    ],
+    "steps": [
+      "Elimina buccia, semi e filamenti dalla zucca e tagliala a cubetti di circa 1,5 cm. Trita finemente lo scalogno.",
+      "In una padella ampia scalda l'olio a fuoco medio con lo scalogno, l'aglio intero e le erbe. Fai appassire per 3-4 minuti senza far colorire, poi togli aglio ed erbe.",
+      "Aggiungi la zucca e un pizzico di sale, fai insaporire per 2 minuti, poi versa metà del brodo. Cuoci coperto a fuoco medio-basso per circa 15-20 minuti, finché la zucca è molto morbida, aggiungendo altro brodo se si asciuga.",
+      "Nel frattempo cuoci la pasta in abbondante acqua salata, scolandola 2 minuti prima del tempo indicato. Tieni da parte una tazza di acqua di cottura.",
+      "Schiaccia la zucca con una forchetta o frullane metà con il minipimer, a seconda di quanto la vuoi cremosa. Aggiungi noce moscata e pepe.",
+      "Trasferisci la pasta nella padella con la crema di zucca e mantecala a fuoco vivo per 2 minuti, aggiungendo acqua di cottura poco alla volta finché il condimento avvolge bene la pasta.",
+      "Spegni il fuoco, aggiungi il parmigiano e mescola energicamente. Servi subito con una macinata di pepe."
+    ],
+    "note": [
+      "Si può sostituire il parmigiano con il lievito alimentare"
+    ],
+    "tag": ["pasta"],
+    "effort": "normal"
+
+  }
+]

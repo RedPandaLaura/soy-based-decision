@@ -1,0 +1,5 @@
+{
+  "header": { "logoAlt": "Soia a tre teste" },
+  "theme": { "dark": "Tema scuro" },
+  "notFound": { "message": "Pagina non trovata." }
+}

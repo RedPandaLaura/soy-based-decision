@@ -14,7 +14,7 @@ There is no test runner or linter configured. `npm run build` is the only correc
 
 Mobile-first React 19 + TypeScript PWA built with Vite. No backend: Firebase was intentionally removed, and data ships as static JSON bundled at build time.
 
-- **Recipes**: one JSON file per recipe in `src/data/recipes/`. `src/data/recipes.ts` loads them all via `import.meta.glob` (eager) and exports `recipes: Recipe[]`. Adding a recipe = adding a file; the `Recipe` interface in that module is the schema and must be kept in sync with the JSON files.
+- **Recipes**: all recipes live in a single JSON array, `src/data/recipes.json`, re-exported by `src/data/recipes.ts` as `recipes: Recipe[]`. Each recipe's `id` is a URL slug (lowercase, hyphens, no accents) and must stay stable. The `Recipe` interface in `recipes.ts` is the schema and must be kept in sync with the JSON.
 - **Theming**: colors are CSS custom properties on `:root` (light) and `[data-theme="dark"]` in `src/index.css`. `useTheme` (`src/hooks/useTheme.ts`) sets `document.documentElement.dataset.theme`, persists the choice in `localStorage` (wrapped in try/catch), and falls back to `prefers-color-scheme`. Use the variables (`--bg`, `--surface`, `--text`, `--primary`, …) rather than hard-coded colors.
 - **Styling**: CSS Modules per component (`*.module.css`) plus global resets in `index.css`. Layout is a single column capped at 480px.
 - **PWA**: configured in `vite.config.ts` (`vite-plugin-pwa`, `autoUpdate`). The manifest's icons are expected in `public/`.

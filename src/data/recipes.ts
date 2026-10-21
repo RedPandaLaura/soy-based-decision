@@ -3,8 +3,9 @@ export interface Recipe {
   title: string
   ingredients: string[]
   steps: string[]
+  note: string[]
 }
 
-const modules = import.meta.glob<Recipe>('./recipes/*.json', { eager: true, import: 'default' })
+import data from './recipes.json'
 
-export const recipes: Recipe[] = Object.values(modules)
+export const recipes: Recipe[] = data

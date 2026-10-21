@@ -1,3 +1,4 @@
+import { Outlet } from 'react-router'
 import styles from './App.module.css'
 import { HeaderLogo } from './components/HeaderLogo'
 
@@ -7,7 +8,7 @@ export default function App() {
     <div className={styles.app}>
       <HeaderLogo></HeaderLogo>
       <main className={styles.main}>
-        <p>Pronto.</p>
+        <Outlet/>
       </main>
     </div>
   )
